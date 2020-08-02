@@ -71,8 +71,8 @@ The directory structure of this repository is as follows:
 ## Details
 **PIDs**
 1. Firstly, two PID instances (one for steering and one for speed) are initialized with the following parameters in P I D order: `steering = 0.045, 0.005, 0.9 |  speed = 0.33, 0.0027, 0.02` .
-2. At each point each instance is updated using the simulator cte value.
-3. Finally, the error of all the components is calculated and propagated to the control variable in the simulator.
+2. At each point each instance is updated using the cross track error `cte` value provided by the simulator.
+3. Finally, the error of all the components is calculated and propagated back to the control variable in the simulator.
 
 **Twiddle**
 1. An instance of the twiddle algorithm is created, the parameters to tune `p` as well as the increments `dp` must be given.
