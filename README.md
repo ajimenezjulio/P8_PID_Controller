@@ -4,7 +4,7 @@
 
 In this project we use a PID controller to control the steering angle and maximum speed possible that allows our car to stay on the road in a virtual environment. This project involves the Udacity Simulator which can be downloaded [here](https://github.com/udacity/self-driving-car-sim/releases).
 
-<img src="https://github.com/ajimenezjulio/P7_Path_Planning/blob/master/docs/path_planning.gif">
+<img src="https://github.com/ajimenezjulio/P8_PID_Controller/blob/master/docs/pid.gif">
 
 ## Goal
 In this project the objective is to drive at the maximum possible speed through a road with steep curves (70 mph were reached) using a PID controller to control the steering angle that our car must turn to stay on the road using the cross track error (`cte`) as the parameter to minimize.
